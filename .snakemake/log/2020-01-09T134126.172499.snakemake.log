@@ -1,0 +1,3 @@
+TypeError in line 10 of /home/leej39/metaphlan_snakemake/Snakefile:
+unsupported operand type(s) for /: 'str' and 'str'
+  File "/home/leej39/metaphlan_snakemake/Snakefile", line 10, in <module>

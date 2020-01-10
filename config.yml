@@ -1,0 +1,4 @@
+ADMIN_EMAIL: "junglee0713@gmail.com"
+PROJECT_DIR: "/scr1/users/leej39/COMBO"
+METAPHLAN_DB: "/scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases"
+THREADS: 4

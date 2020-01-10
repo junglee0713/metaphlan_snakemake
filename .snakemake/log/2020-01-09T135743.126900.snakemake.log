@@ -1,0 +1,714 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 300
+Job counts:
+	count	jobs
+	1	all
+	26	metaphlan_classify
+	27
+
+[Thu Jan  9 13:57:43 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029_metagenome.txt
+    jobid: 8
+    wildcards: sample=c.3029
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029_metagenome.txt
+        
+Submitted job 8 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:43 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018_metagenome.txt
+    jobid: 16
+    wildcards: sample=c.3018
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018_metagenome.txt
+        
+Submitted job 16 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:43 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082_metagenome.txt
+    jobid: 12
+    wildcards: sample=c.3082
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082_metagenome.txt
+        
+Submitted job 12 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:44 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004_metagenome.txt
+    jobid: 4
+    wildcards: sample=c.3004
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004_metagenome.txt
+        
+Submitted job 4 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:44 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001_metagenome.txt
+    jobid: 1
+    wildcards: sample=c.3001
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001_metagenome.txt
+        
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:44 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006_metagenome.txt
+    jobid: 9
+    wildcards: sample=c.3006
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006_metagenome.txt
+        
+Submitted job 9 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:45 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033_metagenome.txt
+    jobid: 22
+    wildcards: sample=c.3033
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033_metagenome.txt
+        
+Submitted job 22 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:45 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011_metagenome.txt
+    jobid: 21
+    wildcards: sample=c.3011
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011_metagenome.txt
+        
+Submitted job 21 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:46 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053_metagenome.txt
+    jobid: 7
+    wildcards: sample=c.3053
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053_metagenome.txt
+        
+Submitted job 7 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:46 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085_metagenome.txt
+    jobid: 20
+    wildcards: sample=c.3085
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085_metagenome.txt
+        
+Submitted job 20 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:46 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010_metagenome.txt
+    jobid: 6
+    wildcards: sample=c.3010
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010_metagenome.txt
+        
+Submitted job 6 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:47 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003_metagenome.txt
+    jobid: 19
+    wildcards: sample=c.3003
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003_metagenome.txt
+        
+Submitted job 19 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:47 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019_metagenome.txt
+    jobid: 15
+    wildcards: sample=c.3019
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019_metagenome.txt
+        
+Submitted job 15 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:47 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063_metagenome.txt
+    jobid: 17
+    wildcards: sample=c.3063
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063_metagenome.txt
+        
+Submitted job 17 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:48 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044_metagenome.txt
+    jobid: 27
+    wildcards: sample=c.3044
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044_metagenome.txt
+        
+Submitted job 27 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:48 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030_metagenome.txt
+    jobid: 24
+    wildcards: sample=c.3030
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030_metagenome.txt
+        
+Submitted job 24 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:48 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079_metagenome.txt
+    jobid: 2
+    wildcards: sample=c.3079
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079_metagenome.txt
+        
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:49 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049_metagenome.txt
+    jobid: 25
+    wildcards: sample=c.3049
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049_metagenome.txt
+        
+Submitted job 25 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:49 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009_metagenome.txt
+    jobid: 26
+    wildcards: sample=c.3009
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009_metagenome.txt
+        
+Submitted job 26 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:49 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015_metagenome.txt
+    jobid: 11
+    wildcards: sample=c.3015
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015_metagenome.txt
+        
+Submitted job 11 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:50 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007_metagenome.txt
+    jobid: 3
+    wildcards: sample=c.3007
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007_metagenome.txt
+        
+Submitted job 3 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:50 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027_metagenome.txt
+    jobid: 13
+    wildcards: sample=c.3027
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027_metagenome.txt
+        
+Submitted job 13 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:50 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025_metagenome.txt
+    jobid: 18
+    wildcards: sample=c.3025
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025_metagenome.txt
+        
+Submitted job 18 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:51 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040_metagenome.txt
+    jobid: 14
+    wildcards: sample=c.3040
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040_metagenome.txt
+        
+Submitted job 14 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:51 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013_metagenome.txt
+    jobid: 5
+    wildcards: sample=c.3013
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013_metagenome.txt
+        
+Submitted job 5 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Jan  9 13:57:51 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023.bowtie2.sam.bz2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023_metagenome.txt
+    jobid: 23
+    wildcards: sample=c.3023
+    threads: 4
+
+
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023_metagenome.txt
+        
+Submitted job 23 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 8
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3029_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 8, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.8.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 16
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3018_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 16, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.16.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 12
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3082_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 12, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.12.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 4
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3004_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 4, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.4.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 1
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3001_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 1, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.1.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 9
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3006_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 9, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.9.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 22
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3033_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 22, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.22.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 21
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3011_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 21, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.21.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 7
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3053_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 7, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.7.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 20
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3085_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 20, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.20.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 6
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3010_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 6, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.6.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 19
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3003_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 19, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.19.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 15
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3019_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 15, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.15.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 17
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3063_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 17, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.17.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 27
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3044_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 27, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.27.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 24
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3030_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 24, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.24.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 2
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3079_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 2, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.2.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 25
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3049_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 25, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.25.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 26
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3009_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 26, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.26.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:30 2020]
+Error in rule metaphlan_classify:
+    jobid: 11
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3015_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 11, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.11.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:31 2020]
+Error in rule metaphlan_classify:
+    jobid: 3
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3007_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 3, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.3.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:31 2020]
+Error in rule metaphlan_classify:
+    jobid: 13
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3027_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 13, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.13.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:31 2020]
+Error in rule metaphlan_classify:
+    jobid: 18
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3025_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 18, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.18.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:41 2020]
+Error in rule metaphlan_classify:
+    jobid: 14
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3040_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 14, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.14.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:51 2020]
+Error in rule metaphlan_classify:
+    jobid: 5
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3013_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 5, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.5.sh). For detailed error see the cluster log.
+[Thu Jan  9 13:58:51 2020]
+Error in rule metaphlan_classify:
+    jobid: 23
+    output: /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023_metagenome.txt
+    shell:
+        
+            ~/miniconda3/envs/metaphlan/bin/metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases \ 
+            /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023.bowtie2.sam.bz2 /scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/raw/c.3023_metagenome.txt
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 23, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/COMBO/.snakemake/tmp.1_lzbc48/snakejob.metaphlan_classify.23.sh). For detailed error see the cluster log.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+mail -s 'An error occurred' junglee0713@gmail.com < /home/leej39/metaphlan_snakemake/.snakemake/log/2020-01-09T135743.126900.snakemake.log
+Complete log: /home/leej39/metaphlan_snakemake/.snakemake/log/2020-01-09T135743.126900.snakemake.log
