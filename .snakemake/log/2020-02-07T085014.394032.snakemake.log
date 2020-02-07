@@ -1,0 +1,1184 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 300
+Job counts:
+	count	jobs
+	1	all
+	97	metaphlan_review_output
+	98
+
+[Fri Feb  7 08:50:22 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.601776_review.txt
+    jobid: 89
+    wildcards: sample=s.601776
+
+Submitted job 89 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:22 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607821_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.607821_review.txt
+    jobid: 40
+    wildcards: sample=s.607821
+
+Submitted job 40 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:23 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.730633_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.730633_review.txt
+    jobid: 41
+    wildcards: sample=s.730633
+
+Submitted job 41 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:23 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705973_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.705973_review.txt
+    jobid: 8
+    wildcards: sample=s.705973
+
+Submitted job 8 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:24 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589174_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.589174_review.txt
+    jobid: 15
+    wildcards: sample=s.589174
+
+Submitted job 15 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:24 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.686767_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.686767_review.txt
+    jobid: 85
+    wildcards: sample=s.686767
+
+Submitted job 85 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:25 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.676203_review.txt
+    jobid: 79
+    wildcards: sample=s.676203
+
+Submitted job 79 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:25 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.72.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.72.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 77
+    wildcards: sample=s.72.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 77 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:25 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.88.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.88.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 21
+    wildcards: sample=s.88.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 21 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:26 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659202_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.659202_review.txt
+    jobid: 35
+    wildcards: sample=s.659202
+
+Submitted job 35 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:26 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743693_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743693_review.txt
+    jobid: 47
+    wildcards: sample=s.743693
+
+Submitted job 47 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:26 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.648291_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.648291_review.txt
+    jobid: 33
+    wildcards: sample=s.648291
+
+Submitted job 33 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:27 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.584540_review.txt
+    jobid: 25
+    wildcards: sample=s.584540
+
+Submitted job 25 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:28 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.559972_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.559972_review.txt
+    jobid: 45
+    wildcards: sample=s.559972
+
+Submitted job 45 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:28 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743095_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743095_review.txt
+    jobid: 36
+    wildcards: sample=s.743095
+
+Submitted job 36 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:28 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.610337_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.610337_review.txt
+    jobid: 14
+    wildcards: sample=s.610337
+
+Submitted job 14 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:29 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.568010_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.568010_review.txt
+    jobid: 68
+    wildcards: sample=s.568010
+
+Submitted job 68 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:29 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743088_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743088_review.txt
+    jobid: 50
+    wildcards: sample=s.743088
+
+Submitted job 50 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:29 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.579283_review.txt
+    jobid: 67
+    wildcards: sample=s.579283
+
+Submitted job 67 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:30 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657550_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.657550_review.txt
+    jobid: 71
+    wildcards: sample=s.657550
+
+Submitted job 71 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:30 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579286_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.579286_review.txt
+    jobid: 9
+    wildcards: sample=s.579286
+
+Submitted job 9 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:31 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712510_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.712510_review.txt
+    jobid: 26
+    wildcards: sample=s.712510
+
+Submitted job 26 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:31 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s115.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s115.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 32
+    wildcards: sample=s115.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 32 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:32 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.651054_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.651054_review.txt
+    jobid: 12
+    wildcards: sample=s.651054
+
+Submitted job 12 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:32 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.573485_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.573485_review.txt
+    jobid: 61
+    wildcards: sample=s.573485
+
+Submitted job 61 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:32 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s26.Healthy.Feces.Visit1_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s26.Healthy.Feces.Visit1_review.txt
+    jobid: 49
+    wildcards: sample=s26.Healthy.Feces.Visit1
+
+Submitted job 49 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:33 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s30_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s30_review.txt
+    jobid: 51
+    wildcards: sample=s30
+
+Submitted job 51 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:33 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.682947_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.682947_review.txt
+    jobid: 66
+    wildcards: sample=s.682947
+
+Submitted job 66 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:34 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.659608_review.txt
+    jobid: 13
+    wildcards: sample=s.659608
+
+Submitted job 13 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:34 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.688996_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.688996_review.txt
+    jobid: 29
+    wildcards: sample=s.688996
+
+Submitted job 29 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:35 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.727449_review.txt
+    jobid: 2
+    wildcards: sample=s.727449
+
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:35 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712839_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.712839_review.txt
+    jobid: 90
+    wildcards: sample=s.712839
+
+Submitted job 90 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:35 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.688993_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.688993_review.txt
+    jobid: 20
+    wildcards: sample=s.688993
+
+Submitted job 20 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:36 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.715151_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.715151_review.txt
+    jobid: 48
+    wildcards: sample=s.715151
+
+Submitted job 48 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:36 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684291_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.684291_review.txt
+    jobid: 6
+    wildcards: sample=s.684291
+
+Submitted job 6 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:37 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.87.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.87.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 27
+    wildcards: sample=s.87.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 27 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:37 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda1_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Vibriolambda1_review.txt
+    jobid: 18
+    wildcards: sample=Vibriolambda1
+
+Submitted job 18 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:37 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.710979_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.710979_review.txt
+    jobid: 64
+    wildcards: sample=s.710979
+
+Submitted job 64 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:38 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s60.Healthy.greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s60.Healthy.greaterthan5.Feces.Baseline_review.txt
+    jobid: 28
+    wildcards: sample=s60.Healthy.greaterthan5.Feces.Baseline
+
+Submitted job 28 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:38 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s70.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s70.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 84
+    wildcards: sample=s70.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 84 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:38 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.683095_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.683095_review.txt
+    jobid: 52
+    wildcards: sample=s.683095
+
+Submitted job 52 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:39 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725841_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.725841_review.txt
+    jobid: 69
+    wildcards: sample=s.725841
+
+Submitted job 69 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:40 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.735642_review.txt
+    jobid: 62
+    wildcards: sample=s.735642
+
+Submitted job 62 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:40 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607389_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.607389_review.txt
+    jobid: 81
+    wildcards: sample=s.607389
+
+Submitted job 81 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:40 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584566_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.584566_review.txt
+    jobid: 92
+    wildcards: sample=s.584566
+
+Submitted job 92 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:41 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.685764_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.685764_review.txt
+    jobid: 88
+    wildcards: sample=s.685764
+
+Submitted job 88 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:41 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.600982_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.600982_review.txt
+    jobid: 34
+    wildcards: sample=s.600982
+
+Submitted job 34 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:41 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.565800_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.565800_review.txt
+    jobid: 56
+    wildcards: sample=s.565800
+
+Submitted job 56 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:42 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.705287_review.txt
+    jobid: 75
+    wildcards: sample=s.705287
+
+Submitted job 75 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:42 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.710982_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.710982_review.txt
+    jobid: 44
+    wildcards: sample=s.710982
+
+Submitted job 44 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:43 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.658892_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.658892_review.txt
+    jobid: 31
+    wildcards: sample=s.658892
+
+Submitted job 31 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:43 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725997_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.725997_review.txt
+    jobid: 58
+    wildcards: sample=s.725997
+
+Submitted job 58 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:43 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743091_review.txt
+    jobid: 23
+    wildcards: sample=s.743091
+
+Submitted job 23 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:44 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705284_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.705284_review.txt
+    jobid: 11
+    wildcards: sample=s.705284
+
+Waiting at most 180 seconds for missing files.
+Submitted job 11 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:44 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.725994_review.txt
+    jobid: 37
+    wildcards: sample=s.725994
+
+Submitted job 37 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:45 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.668083_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.668083_review.txt
+    jobid: 74
+    wildcards: sample=s.668083
+
+Submitted job 74 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:45 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.677285_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.677285_review.txt
+    jobid: 4
+    wildcards: sample=s.677285
+
+Submitted job 4 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:45 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.109.Healthy.greaterthan5.Stool.1.910_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.109.Healthy.greaterthan5.Stool.1.910_review.txt
+    jobid: 30
+    wildcards: sample=s.109.Healthy.greaterthan5.Stool.1.910
+
+Submitted job 30 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:46 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s69.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 43
+    wildcards: sample=s69.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 43 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:46 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.572825_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.572825_review.txt
+    jobid: 24
+    wildcards: sample=s.572825
+
+Submitted job 24 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:47 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.629793_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.629793_review.txt
+    jobid: 72
+    wildcards: sample=s.629793
+
+Submitted job 72 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:47 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.719927_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.719927_review.txt
+    jobid: 54
+    wildcards: sample=s.719927
+
+Submitted job 54 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:47 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589617_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.589617_review.txt
+    jobid: 63
+    wildcards: sample=s.589617
+
+Submitted job 63 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:48 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.684444_review.txt
+    jobid: 46
+    wildcards: sample=s.684444
+
+Submitted job 46 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:48 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.84.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.84.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 57
+    wildcards: sample=s.84.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 57 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:49 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.100.Healthygreaterthan5.Stool.visit1.798_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.100.Healthygreaterthan5.Stool.visit1.798_review.txt
+    jobid: 96
+    wildcards: sample=s.100.Healthygreaterthan5.Stool.visit1.798
+
+Submitted job 96 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:49 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s059.Healthy_lessthan5.Feces.Baseline_review.txt
+    jobid: 65
+    wildcards: sample=s059.Healthy_lessthan5.Feces.Baseline
+
+Submitted job 65 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:50 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/EBneg1_review.txt
+    jobid: 93
+    wildcards: sample=EBneg1
+
+Submitted job 93 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:50 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607519_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.607519_review.txt
+    jobid: 91
+    wildcards: sample=s.607519
+
+Submitted job 91 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:50 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractemptywell1_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractemptywell1_review.txt
+    jobid: 39
+    wildcards: sample=Extractemptywell1
+
+Submitted job 39 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:51 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab1_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractblankswab1_review.txt
+    jobid: 76
+    wildcards: sample=Extractblankswab1
+
+Submitted job 76 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:51 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.581300_review.txt
+    jobid: 55
+    wildcards: sample=s.581300
+
+Submitted job 55 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:51 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda2_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Vibriolambda2_review.txt
+    jobid: 97
+    wildcards: sample=Vibriolambda2
+
+Submitted job 97 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:52 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.736172_review.txt
+    jobid: 1
+    wildcards: sample=s.736172
+
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:52 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.612075_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.612075_review.txt
+    jobid: 59
+    wildcards: sample=s.612075
+
+Submitted job 59 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:53 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractemptywell2_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractemptywell2_review.txt
+    jobid: 80
+    wildcards: sample=Extractemptywell2
+
+Submitted job 80 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:53 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.700001_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.700001_review.txt
+    jobid: 22
+    wildcards: sample=s.700001
+
+Submitted job 22 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:54 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.702381_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.702381_review.txt
+    jobid: 38
+    wildcards: sample=s.702381
+
+Submitted job 38 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:54 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab2_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractblankswab2_review.txt
+    jobid: 16
+    wildcards: sample=Extractblankswab2
+
+Submitted job 16 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:54 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676200_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.676200_review.txt
+    jobid: 87
+    wildcards: sample=s.676200
+
+Submitted job 87 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:55 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.587618_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.587618_review.txt
+    jobid: 73
+    wildcards: sample=s.587618
+
+Submitted job 73 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:55 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657553_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.657553_review.txt
+    jobid: 7
+    wildcards: sample=s.657553
+
+Submitted job 7 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:55 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.579277_review.txt
+    jobid: 5
+    wildcards: sample=s.579277
+
+Submitted job 5 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:56 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s22.Healthy.Feces.Visit1_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s22.Healthy.Feces.Visit1_review.txt
+    jobid: 42
+    wildcards: sample=s22.Healthy.Feces.Visit1
+
+Submitted job 42 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:56 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.603321_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.603321_review.txt
+    jobid: 83
+    wildcards: sample=s.603321
+
+Submitted job 83 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:56 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.75.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.75.Healthy_greaterthan5.Feces.Baseline_review.txt
+    jobid: 78
+    wildcards: sample=s.75.Healthy_greaterthan5.Feces.Baseline
+
+Submitted job 78 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:57 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.606450_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.606450_review.txt
+    jobid: 17
+    wildcards: sample=s.606450
+
+Submitted job 17 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:57 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.690073_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.690073_review.txt
+    jobid: 86
+    wildcards: sample=s.690073
+
+Submitted job 86 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:58 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.716348_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.716348_review.txt
+    jobid: 60
+    wildcards: sample=s.716348
+
+Submitted job 60 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:58 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.665839_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.665839_review.txt
+    jobid: 95
+    wildcards: sample=s.665839
+
+Submitted job 95 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:59 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.656956_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.656956_review.txt
+    jobid: 94
+    wildcards: sample=s.656956
+
+Submitted job 94 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:59 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.558016_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.558016_review.txt
+    jobid: 10
+    wildcards: sample=s.558016
+
+Submitted job 10 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:50:59 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s46.Healthy.greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s46.Healthy.greaterthan5.Feces.Baseline_review.txt
+    jobid: 82
+    wildcards: sample=s46.Healthy.greaterthan5.Feces.Baseline
+
+Submitted job 82 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:51:00 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s58.Healthy.greaterthan5.Feces.Baseline_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s58.Healthy.greaterthan5.Feces.Baseline_review.txt
+    jobid: 3
+    wildcards: sample=s58.Healthy.greaterthan5.Feces.Baseline
+
+Submitted job 3 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:51:00 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.575922_review.txt
+    jobid: 70
+    wildcards: sample=s.575922
+
+Submitted job 70 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:51:01 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg2_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/EBneg2_review.txt
+    jobid: 19
+    wildcards: sample=EBneg2
+
+Submitted job 19 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Fri Feb  7 08:51:01 2020]
+rule metaphlan_review_output:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869_metagenome.txt
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.647869_review.txt
+    jobid: 53
+    wildcards: sample=s.647869
+
+Submitted job 53 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Fri Feb  7 08:51:15 2020]
+Finished job 89.
+1 of 98 steps (1%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 40.
+2 of 98 steps (2%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 41.
+3 of 98 steps (3%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 8.
+4 of 98 steps (4%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 15.
+5 of 98 steps (5%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 85.
+6 of 98 steps (6%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 79.
+7 of 98 steps (7%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 77.
+8 of 98 steps (8%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 21.
+9 of 98 steps (9%) done
+[Fri Feb  7 08:51:15 2020]
+Finished job 35.
+10 of 98 steps (10%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 47.
+11 of 98 steps (11%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 33.
+12 of 98 steps (12%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 25.
+13 of 98 steps (13%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 45.
+14 of 98 steps (14%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 36.
+15 of 98 steps (15%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 14.
+16 of 98 steps (16%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 68.
+17 of 98 steps (17%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 50.
+18 of 98 steps (18%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 67.
+19 of 98 steps (19%) done
+[Fri Feb  7 08:51:16 2020]
+Finished job 71.
+20 of 98 steps (20%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 9.
+21 of 98 steps (21%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 26.
+22 of 98 steps (22%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 32.
+23 of 98 steps (23%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 12.
+24 of 98 steps (24%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 29.
+25 of 98 steps (26%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 2.
+26 of 98 steps (27%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 90.
+27 of 98 steps (28%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 20.
+28 of 98 steps (29%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 48.
+29 of 98 steps (30%) done
+[Fri Feb  7 08:51:17 2020]
+Finished job 6.
+30 of 98 steps (31%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 27.
+31 of 98 steps (32%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 18.
+32 of 98 steps (33%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 64.
+33 of 98 steps (34%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 28.
+34 of 98 steps (35%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 84.
+35 of 98 steps (36%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 52.
+36 of 98 steps (37%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 69.
+37 of 98 steps (38%) done
+[Fri Feb  7 08:51:18 2020]
+Finished job 62.
+38 of 98 steps (39%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 81.
+39 of 98 steps (40%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 92.
+40 of 98 steps (41%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 88.
+41 of 98 steps (42%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 34.
+42 of 98 steps (43%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 56.
+43 of 98 steps (44%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 75.
+44 of 98 steps (45%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 44.
+45 of 98 steps (46%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 31.
+46 of 98 steps (47%) done
+[Fri Feb  7 08:51:19 2020]
+Finished job 58.
+47 of 98 steps (48%) done
+[Fri Feb  7 08:51:20 2020]
+Finished job 23.
+48 of 98 steps (49%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 11.
+49 of 98 steps (50%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 37.
+50 of 98 steps (51%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 74.
+51 of 98 steps (52%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 4.
+52 of 98 steps (53%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 30.
+53 of 98 steps (54%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 43.
+54 of 98 steps (55%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 24.
+55 of 98 steps (56%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 72.
+56 of 98 steps (57%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 54.
+57 of 98 steps (58%) done
+[Fri Feb  7 08:51:30 2020]
+Finished job 63.
+58 of 98 steps (59%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 46.
+59 of 98 steps (60%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 57.
+60 of 98 steps (61%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 96.
+61 of 98 steps (62%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 65.
+62 of 98 steps (63%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 93.
+63 of 98 steps (64%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 91.
+64 of 98 steps (65%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 39.
+65 of 98 steps (66%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 76.
+66 of 98 steps (67%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 55.
+67 of 98 steps (68%) done
+[Fri Feb  7 08:51:31 2020]
+Finished job 97.
+68 of 98 steps (69%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 1.
+69 of 98 steps (70%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 59.
+70 of 98 steps (71%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 80.
+71 of 98 steps (72%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 22.
+72 of 98 steps (73%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 38.
+73 of 98 steps (74%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 16.
+74 of 98 steps (76%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 87.
+75 of 98 steps (77%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 73.
+76 of 98 steps (78%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 7.
+77 of 98 steps (79%) done
+[Fri Feb  7 08:51:32 2020]
+Finished job 5.
+78 of 98 steps (80%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 42.
+79 of 98 steps (81%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 83.
+80 of 98 steps (82%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 78.
+81 of 98 steps (83%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 17.
+82 of 98 steps (84%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 86.
+83 of 98 steps (85%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 60.
+84 of 98 steps (86%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 95.
+85 of 98 steps (87%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 94.
+86 of 98 steps (88%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 10.
+87 of 98 steps (89%) done
+[Fri Feb  7 08:51:33 2020]
+Finished job 82.
+88 of 98 steps (90%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 3.
+89 of 98 steps (91%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 70.
+90 of 98 steps (92%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 19.
+91 of 98 steps (93%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 53.
+92 of 98 steps (94%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 61.
+93 of 98 steps (95%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 49.
+94 of 98 steps (96%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 51.
+95 of 98 steps (97%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 66.
+96 of 98 steps (98%) done
+[Fri Feb  7 08:51:34 2020]
+Finished job 13.
+97 of 98 steps (99%) done
+
+[Fri Feb  7 08:51:34 2020]
+localrule all:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.736172_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.727449_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s58.Healthy.greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.677285_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.579277_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.684291_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.657553_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.705973_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.579286_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.558016_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.705284_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.651054_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.659608_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.610337_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.589174_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractblankswab2_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.606450_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Vibriolambda1_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/EBneg2_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.688993_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.88.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.700001_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743091_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.572825_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.584540_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.712510_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.87.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s60.Healthy.greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.688996_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.109.Healthy.greaterthan5.Stool.1.910_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.658892_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s115.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.648291_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.600982_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.659202_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743095_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.725994_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.702381_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractemptywell1_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.607821_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.730633_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s22.Healthy.Feces.Visit1_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s69.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.710982_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.559972_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.684444_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743693_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.715151_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s26.Healthy.Feces.Visit1_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.743088_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s30_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.683095_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.647869_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.719927_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.581300_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.565800_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.84.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.725997_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.612075_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.716348_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.573485_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.735642_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.589617_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.710979_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s059.Healthy_lessthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.682947_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.579283_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.568010_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.725841_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.575922_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.657550_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.629793_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.587618_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.668083_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.705287_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractblankswab1_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.72.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.75.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.676203_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Extractemptywell2_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.607389_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s46.Healthy.greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.603321_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s70.Healthy_greaterthan5.Feces.Baseline_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.686767_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.690073_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.676200_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.685764_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.601776_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.712839_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.607519_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.584566_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/EBneg1_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.656956_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.665839_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/s.100.Healthygreaterthan5.Stool.visit1.798_review.txt, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/review/Vibriolambda2_review.txt
+    jobid: 0
+
+[Fri Feb  7 08:51:34 2020]
+Finished job 0.
+98 of 98 steps (100%) done
+Complete log: /home/leej39/metaphlan_snakemake/.snakemake/log/2020-02-07T085014.394032.snakemake.log
+mail -s "Workflow finished successfully" junglee0713@gmail.com < /home/leej39/metaphlan_snakemake/.snakemake/log/2020-02-07T085014.394032.snakemake.log

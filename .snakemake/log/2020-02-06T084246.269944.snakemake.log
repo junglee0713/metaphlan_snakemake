@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 300
+Job counts:
+	count	jobs
+	1	all
+	2	metaphlan_classify
+	3
+
+[Thu Feb  6 08:42:49 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172_metagenome.txt
+    jobid: 1
+    wildcards: sample=s.736172
+    threads: 4
+
+
+            source activate metaphlan
+            metaphlan2.py             --nproc 4             --input_type sam             --nreads 100             --bowtie2db /mnt/isilon/microbiome/analysis/biodata/metaphlan_db_mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172_metagenome.txt
+            source deactivate
+        
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Thu Feb  6 08:42:50 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449_metagenome.txt
+    jobid: 2
+    wildcards: sample=s.727449
+    threads: 4
+
+
+            source activate metaphlan
+            metaphlan2.py             --nproc 4             --input_type sam             --nreads 100             --bowtie2db /mnt/isilon/microbiome/analysis/biodata/metaphlan_db_mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449_metagenome.txt
+            source deactivate
+        
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Thu Feb  6 08:43:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 1
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172_metagenome.txt
+    shell:
+        
+            source activate metaphlan
+            metaphlan2.py             --nproc 4             --input_type sam             --nreads 100             --bowtie2db /mnt/isilon/microbiome/analysis/biodata/metaphlan_db_mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172_metagenome.txt
+            source deactivate
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 1, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/Greg_Tasian_New/.snakemake/tmp.2cin0tml/snakejob.metaphlan_classify.1.sh). For detailed error see the cluster log.
+[Thu Feb  6 08:43:29 2020]
+Error in rule metaphlan_classify:
+    jobid: 2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449_metagenome.txt
+    shell:
+        
+            source activate metaphlan
+            metaphlan2.py             --nproc 4             --input_type sam             --nreads 100             --bowtie2db /mnt/isilon/microbiome/analysis/biodata/metaphlan_db_mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449_metagenome.txt
+            source deactivate
+        
+        (exited with non-zero exit code)
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Error executing rule metaphlan_classify on cluster (jobid: 2, external: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue, jobscript: /scr1/users/leej39/Greg_Tasian_New/.snakemake/tmp.2cin0tml/snakejob.metaphlan_classify.2.sh). For detailed error see the cluster log.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+mail -s "An error occurred" junglee0713@gmail.com < /home/leej39/metaphlan_snakemake/.snakemake/log/2020-02-06T084246.269944.snakemake.log
+Complete log: /home/leej39/metaphlan_snakemake/.snakemake/log/2020-02-06T084246.269944.snakemake.log

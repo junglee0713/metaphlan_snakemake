@@ -1,0 +1,9 @@
+# Conda environment file for metaphlan2.   We use this for certain Snakemake
+# rules to keep the python2-specific version installed via Bioconda
+# self-contained so it won't conflict with Sunbeam.
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bowtie2
+  - metaphlan2=2.7.5

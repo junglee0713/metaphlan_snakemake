@@ -1,0 +1,33 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.651054.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.700001.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.572825.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.648291.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.702381.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607821.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.559972.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.715151.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s26.Healthy.Feces.Visit1.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s30.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.719927.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.84.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.612075.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.573485.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589617.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725841.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.668083.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.686767.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.685764.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607519.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584566.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.656956.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.665839.bowtie2.sam.bz2
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.100.Healthygreaterthan5.Stool.visit1.798.bowtie2.sam.bz2

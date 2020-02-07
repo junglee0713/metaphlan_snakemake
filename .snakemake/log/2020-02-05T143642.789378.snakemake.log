@@ -1,0 +1,1716 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 300
+Job counts:
+	count	jobs
+	1	all
+	97	metaphlan_bowtie
+	97	metaphlan_classify
+	195
+
+[Wed Feb  5 14:36:45 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s059.Healthy_lessthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s059.Healthy_lessthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 162
+    wildcards: sample=s059.Healthy_lessthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s059.Healthy_lessthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s059.Healthy_lessthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 162 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:45 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.581300_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.581300_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300.bowtie2.sam.bz2
+    jobid: 152
+    wildcards: sample=s.581300
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.581300_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.581300_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300.bowtie2.sam.bz2
+        
+Submitted job 152 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:46 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579277_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579277_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277.bowtie2.sam.bz2
+    jobid: 102
+    wildcards: sample=s.579277
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579277_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579277_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277.bowtie2.sam.bz2
+        
+Submitted job 102 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:46 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.601776_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.601776_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776.bowtie2.sam.bz2
+    jobid: 186
+    wildcards: sample=s.601776
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.601776_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.601776_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776.bowtie2.sam.bz2
+        
+Submitted job 186 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:47 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584540_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584540_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540.bowtie2.sam.bz2
+    jobid: 122
+    wildcards: sample=s.584540
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584540_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584540_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540.bowtie2.sam.bz2
+        
+Submitted job 122 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:47 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684444_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684444_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444.bowtie2.sam.bz2
+    jobid: 143
+    wildcards: sample=s.684444
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684444_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684444_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444.bowtie2.sam.bz2
+        
+Submitted job 143 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:47 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.735642_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.735642_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642.bowtie2.sam.bz2
+    jobid: 159
+    wildcards: sample=s.735642
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.735642_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.735642_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642.bowtie2.sam.bz2
+        
+Submitted job 159 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:48 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725994_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725994_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994.bowtie2.sam.bz2
+    jobid: 134
+    wildcards: sample=s.725994
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725994_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725994_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994.bowtie2.sam.bz2
+        
+Submitted job 134 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:49 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579283_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579283_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283.bowtie2.sam.bz2
+    jobid: 164
+    wildcards: sample=s.579283
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579283_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579283_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283.bowtie2.sam.bz2
+        
+Submitted job 164 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:49 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705287_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705287_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287.bowtie2.sam.bz2
+    jobid: 172
+    wildcards: sample=s.705287
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705287_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705287_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287.bowtie2.sam.bz2
+        
+Submitted job 172 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:49 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659608_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659608_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608.bowtie2.sam.bz2
+    jobid: 110
+    wildcards: sample=s.659608
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659608_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659608_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608.bowtie2.sam.bz2
+        
+Submitted job 110 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:50 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.575922_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.575922_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922.bowtie2.sam.bz2
+    jobid: 167
+    wildcards: sample=s.575922
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.575922_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.575922_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922.bowtie2.sam.bz2
+        
+Submitted job 167 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:50 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676203_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676203_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203.bowtie2.sam.bz2
+    jobid: 176
+    wildcards: sample=s.676203
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676203_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676203_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203.bowtie2.sam.bz2
+        
+Submitted job 176 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:51 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676200_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676200_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676200.bowtie2.sam.bz2
+    jobid: 184
+    wildcards: sample=s.676200
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676200_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.676200_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676200.bowtie2.sam.bz2
+        
+Submitted job 184 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:51 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.610337_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.610337_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.610337.bowtie2.sam.bz2
+    jobid: 111
+    wildcards: sample=s.610337
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.610337_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.610337_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.610337.bowtie2.sam.bz2
+        
+Submitted job 111 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:52 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.647869_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.647869_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869.bowtie2.sam.bz2
+    jobid: 150
+    wildcards: sample=s.647869
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.647869_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.647869_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869.bowtie2.sam.bz2
+        
+Submitted job 150 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:52 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743091_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743091_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091.bowtie2.sam.bz2
+    jobid: 120
+    wildcards: sample=s.743091
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743091_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743091_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091.bowtie2.sam.bz2
+        
+Submitted job 120 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:52 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg1_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg1_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1.bowtie2.sam.bz2
+    jobid: 190
+    wildcards: sample=EBneg1
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg1_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg1_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1.bowtie2.sam.bz2
+        
+Submitted job 190 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:53 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.682947_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.682947_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.682947.bowtie2.sam.bz2
+    jobid: 163
+    wildcards: sample=s.682947
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.682947_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.682947_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.682947.bowtie2.sam.bz2
+        
+Submitted job 163 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:53 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s69.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s69.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 140
+    wildcards: sample=s69.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s69.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s69.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 140 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:54 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.629793_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.629793_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.629793.bowtie2.sam.bz2
+    jobid: 169
+    wildcards: sample=s.629793
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.629793_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.629793_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.629793.bowtie2.sam.bz2
+        
+Submitted job 169 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:54 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.568010_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.568010_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.568010.bowtie2.sam.bz2
+    jobid: 165
+    wildcards: sample=s.568010
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.568010_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.568010_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.568010.bowtie2.sam.bz2
+        
+Submitted job 165 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:54 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657553_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657553_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657553.bowtie2.sam.bz2
+    jobid: 104
+    wildcards: sample=s.657553
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657553_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657553_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657553.bowtie2.sam.bz2
+        
+Submitted job 104 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:55 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.600982_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.600982_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.600982.bowtie2.sam.bz2
+    jobid: 131
+    wildcards: sample=s.600982
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.600982_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.600982_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.600982.bowtie2.sam.bz2
+        
+Submitted job 131 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:55 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.72.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.72.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.72.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 174
+    wildcards: sample=s.72.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.72.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.72.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.72.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 174 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:56 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.606450_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.606450_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.606450.bowtie2.sam.bz2
+    jobid: 114
+    wildcards: sample=s.606450
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.606450_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.606450_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.606450.bowtie2.sam.bz2
+        
+Submitted job 114 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:56 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659202_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659202_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659202.bowtie2.sam.bz2
+    jobid: 132
+    wildcards: sample=s.659202
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659202_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.659202_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659202.bowtie2.sam.bz2
+        
+Submitted job 132 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:56 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743095_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743095_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743095.bowtie2.sam.bz2
+    jobid: 133
+    wildcards: sample=s.743095
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743095_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743095_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743095.bowtie2.sam.bz2
+        
+Submitted job 133 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:57 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657550_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657550_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657550.bowtie2.sam.bz2
+    jobid: 168
+    wildcards: sample=s.657550
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657550_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.657550_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657550.bowtie2.sam.bz2
+        
+Submitted job 168 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:57 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s58.Healthy.greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s58.Healthy.greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s58.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 100
+    wildcards: sample=s58.Healthy.greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s58.Healthy.greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s58.Healthy.greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s58.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 100 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:58 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.558016_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.558016_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.558016.bowtie2.sam.bz2
+    jobid: 107
+    wildcards: sample=s.558016
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.558016_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.558016_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.558016.bowtie2.sam.bz2
+        
+Submitted job 107 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:58 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.658892_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.658892_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.658892.bowtie2.sam.bz2
+    jobid: 128
+    wildcards: sample=s.658892
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.658892_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.658892_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.658892.bowtie2.sam.bz2
+        
+Submitted job 128 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:58 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.736172_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.736172_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172.bowtie2.sam.bz2
+    jobid: 98
+    wildcards: sample=s.736172
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.736172_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.736172_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172.bowtie2.sam.bz2
+        
+Submitted job 98 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:59 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712510_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712510_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712510.bowtie2.sam.bz2
+    jobid: 123
+    wildcards: sample=s.712510
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712510_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712510_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712510.bowtie2.sam.bz2
+        
+Submitted job 123 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:36:59 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.75.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 175
+    wildcards: sample=s.75.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.75.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 175 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:00 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda1_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda1_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda1.bowtie2.sam.bz2
+    jobid: 115
+    wildcards: sample=Vibriolambda1
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda1_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda1_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda1.bowtie2.sam.bz2
+        
+Submitted job 115 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:00 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705284_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705284_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705284.bowtie2.sam.bz2
+    jobid: 108
+    wildcards: sample=s.705284
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705284_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705284_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705284.bowtie2.sam.bz2
+        
+Submitted job 108 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:01 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743693_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743693_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743693.bowtie2.sam.bz2
+    jobid: 144
+    wildcards: sample=s.743693
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743693_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743693_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743693.bowtie2.sam.bz2
+        
+Submitted job 144 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:01 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705973_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705973_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705973.bowtie2.sam.bz2
+    jobid: 105
+    wildcards: sample=s.705973
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705973_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.705973_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705973.bowtie2.sam.bz2
+        
+Submitted job 105 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:02 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.87.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.87.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.87.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 124
+    wildcards: sample=s.87.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.87.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.87.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.87.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 124 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:02 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.677285_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.677285_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.677285.bowtie2.sam.bz2
+    jobid: 101
+    wildcards: sample=s.677285
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.677285_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.677285_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.677285.bowtie2.sam.bz2
+        
+Submitted job 101 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:03 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.702381_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.702381_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.702381.bowtie2.sam.bz2
+    jobid: 135
+    wildcards: sample=s.702381
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.702381_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.702381_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.702381.bowtie2.sam.bz2
+        
+Submitted job 135 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:03 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab2_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab2_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab2.bowtie2.sam.bz2
+    jobid: 113
+    wildcards: sample=Extractblankswab2
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab2_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab2_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab2.bowtie2.sam.bz2
+        
+Submitted job 113 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:03 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s70.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 181
+    wildcards: sample=s70.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s70.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 181 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:04 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.572825_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.572825_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.572825.bowtie2.sam.bz2
+    jobid: 121
+    wildcards: sample=s.572825
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.572825_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.572825_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.572825.bowtie2.sam.bz2
+        
+Submitted job 121 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:04 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.727449_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.727449_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449.bowtie2.sam.bz2
+    jobid: 99
+    wildcards: sample=s.727449
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.727449_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.727449_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.727449.bowtie2.sam.bz2
+        
+Submitted job 99 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:04 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.719927_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.719927_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.719927.bowtie2.sam.bz2
+    jobid: 151
+    wildcards: sample=s.719927
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.719927_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.719927_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.719927.bowtie2.sam.bz2
+        
+Submitted job 151 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:05 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s26.Healthy.Feces.Visit1.bowtie2.sam.bz2
+    jobid: 146
+    wildcards: sample=s26.Healthy.Feces.Visit1
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s26.Healthy.Feces.Visit1.bowtie2.sam.bz2
+        
+Submitted job 146 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:05 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.651054_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.651054_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.651054.bowtie2.sam.bz2
+    jobid: 109
+    wildcards: sample=s.651054
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.651054_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.651054_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.651054.bowtie2.sam.bz2
+        
+Submitted job 109 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:06 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.665839_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.665839_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.665839.bowtie2.sam.bz2
+    jobid: 192
+    wildcards: sample=s.665839
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.665839_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.665839_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.665839.bowtie2.sam.bz2
+        
+Submitted job 192 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:06 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725841_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725841_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725841.bowtie2.sam.bz2
+    jobid: 166
+    wildcards: sample=s.725841
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725841_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725841_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725841.bowtie2.sam.bz2
+        
+Submitted job 166 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:06 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.668083_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.668083_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.668083.bowtie2.sam.bz2
+    jobid: 171
+    wildcards: sample=s.668083
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.668083_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.668083_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.668083.bowtie2.sam.bz2
+        
+Submitted job 171 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:07 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.573485_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.573485_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.573485.bowtie2.sam.bz2
+    jobid: 158
+    wildcards: sample=s.573485
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.573485_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.573485_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.573485.bowtie2.sam.bz2
+        
+Submitted job 158 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:08 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.656956_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.656956_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.656956.bowtie2.sam.bz2
+    jobid: 191
+    wildcards: sample=s.656956
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.656956_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.656956_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.656956.bowtie2.sam.bz2
+        
+Submitted job 191 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:08 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.700001_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.700001_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.700001.bowtie2.sam.bz2
+    jobid: 119
+    wildcards: sample=s.700001
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.700001_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.700001_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.700001.bowtie2.sam.bz2
+        
+Submitted job 119 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:08 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.715151_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.715151_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.715151.bowtie2.sam.bz2
+    jobid: 145
+    wildcards: sample=s.715151
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.715151_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.715151_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.715151.bowtie2.sam.bz2
+        
+Submitted job 145 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:09 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589617_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589617_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589617.bowtie2.sam.bz2
+    jobid: 160
+    wildcards: sample=s.589617
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589617_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589617_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589617.bowtie2.sam.bz2
+        
+Submitted job 160 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:09 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.612075_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.612075_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.612075.bowtie2.sam.bz2
+    jobid: 156
+    wildcards: sample=s.612075
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.612075_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.612075_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.612075.bowtie2.sam.bz2
+        
+Submitted job 156 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:10 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584566_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584566_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584566.bowtie2.sam.bz2
+    jobid: 189
+    wildcards: sample=s.584566
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584566_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.584566_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584566.bowtie2.sam.bz2
+        
+Submitted job 189 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:10 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.559972_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.559972_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.559972.bowtie2.sam.bz2
+    jobid: 142
+    wildcards: sample=s.559972
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.559972_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.559972_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.559972.bowtie2.sam.bz2
+        
+Submitted job 142 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:10 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.100.Healthygreaterthan5.Stool.visit1.798_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.100.Healthygreaterthan5.Stool.visit1.798_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.100.Healthygreaterthan5.Stool.visit1.798.bowtie2.sam.bz2
+    jobid: 193
+    wildcards: sample=s.100.Healthygreaterthan5.Stool.visit1.798
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.100.Healthygreaterthan5.Stool.visit1.798_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.100.Healthygreaterthan5.Stool.visit1.798_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.100.Healthygreaterthan5.Stool.visit1.798.bowtie2.sam.bz2
+        
+Submitted job 193 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:11 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.685764_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.685764_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.685764.bowtie2.sam.bz2
+    jobid: 185
+    wildcards: sample=s.685764
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.685764_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.685764_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.685764.bowtie2.sam.bz2
+        
+Submitted job 185 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:11 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s30_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s30_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s30.bowtie2.sam.bz2
+    jobid: 148
+    wildcards: sample=s30
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s30_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s30_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s30.bowtie2.sam.bz2
+        
+Submitted job 148 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:12 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607519_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607519_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607519.bowtie2.sam.bz2
+    jobid: 188
+    wildcards: sample=s.607519
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607519_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607519_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607519.bowtie2.sam.bz2
+        
+Submitted job 188 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:12 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.648291_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.648291_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.648291.bowtie2.sam.bz2
+    jobid: 130
+    wildcards: sample=s.648291
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.648291_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.648291_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.648291.bowtie2.sam.bz2
+        
+Submitted job 130 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:12 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.84.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 154
+    wildcards: sample=s.84.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.84.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 154 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:13 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607821_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607821_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607821.bowtie2.sam.bz2
+    jobid: 137
+    wildcards: sample=s.607821
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607821_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607821_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607821.bowtie2.sam.bz2
+        
+Submitted job 137 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:13 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.686767_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.686767_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.686767.bowtie2.sam.bz2
+    jobid: 182
+    wildcards: sample=s.686767
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.686767_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.686767_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.686767.bowtie2.sam.bz2
+        
+Submitted job 182 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:14 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s60.Healthy.greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s60.Healthy.greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s60.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 125
+    wildcards: sample=s60.Healthy.greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s60.Healthy.greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s60.Healthy.greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s60.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 125 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:14 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.730633_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.730633_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.730633.bowtie2.sam.bz2
+    jobid: 138
+    wildcards: sample=s.730633
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.730633_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.730633_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.730633.bowtie2.sam.bz2
+        
+Submitted job 138 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:15 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579286_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579286_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579286.bowtie2.sam.bz2
+    jobid: 106
+    wildcards: sample=s.579286
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579286_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.579286_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579286.bowtie2.sam.bz2
+        
+Submitted job 106 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:15 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589174_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589174_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589174.bowtie2.sam.bz2
+    jobid: 112
+    wildcards: sample=s.589174
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589174_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.589174_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.589174.bowtie2.sam.bz2
+        
+Submitted job 112 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:16 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.88.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.88.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.88.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 118
+    wildcards: sample=s.88.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.88.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.88.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.88.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 118 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:16 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712839_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712839_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712839.bowtie2.sam.bz2
+    jobid: 187
+    wildcards: sample=s.712839
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712839_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.712839_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712839.bowtie2.sam.bz2
+        
+Submitted job 187 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:16 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743088_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743088_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743088.bowtie2.sam.bz2
+    jobid: 147
+    wildcards: sample=s.743088
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743088_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.743088_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743088.bowtie2.sam.bz2
+        
+Submitted job 147 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:17 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg2_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg2_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg2.bowtie2.sam.bz2
+    jobid: 116
+    wildcards: sample=EBneg2
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg2_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/EBneg2_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg2.bowtie2.sam.bz2
+        
+Submitted job 116 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:17 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s46.Healthy.greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s46.Healthy.greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s46.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 179
+    wildcards: sample=s46.Healthy.greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s46.Healthy.greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s46.Healthy.greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s46.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 179 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:18 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.683095_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.683095_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.683095.bowtie2.sam.bz2
+    jobid: 149
+    wildcards: sample=s.683095
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.683095_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.683095_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.683095.bowtie2.sam.bz2
+        
+Submitted job 149 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:18 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.565800_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.565800_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.565800.bowtie2.sam.bz2
+    jobid: 153
+    wildcards: sample=s.565800
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.565800_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.565800_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.565800.bowtie2.sam.bz2
+        
+Submitted job 153 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:18 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.109.Healthy.greaterthan5.Stool.1.910.bowtie2.sam.bz2
+    jobid: 127
+    wildcards: sample=s.109.Healthy.greaterthan5.Stool.1.910
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.109.Healthy.greaterthan5.Stool.1.910.bowtie2.sam.bz2
+        
+Submitted job 127 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:19 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell1_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell1_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractemptywell1.bowtie2.sam.bz2
+    jobid: 136
+    wildcards: sample=Extractemptywell1
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell1_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell1_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractemptywell1.bowtie2.sam.bz2
+        
+Submitted job 136 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:19 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688996_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688996_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.688996.bowtie2.sam.bz2
+    jobid: 126
+    wildcards: sample=s.688996
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688996_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688996_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.688996.bowtie2.sam.bz2
+        
+Submitted job 126 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:20 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s115.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s115.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s115.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    jobid: 129
+    wildcards: sample=s115.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s115.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s115.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s115.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+        
+Submitted job 129 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:20 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607389_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607389_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607389.bowtie2.sam.bz2
+    jobid: 178
+    wildcards: sample=s.607389
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607389_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.607389_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.607389.bowtie2.sam.bz2
+        
+Submitted job 178 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:20 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.716348_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.716348_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.716348.bowtie2.sam.bz2
+    jobid: 157
+    wildcards: sample=s.716348
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.716348_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.716348_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.716348.bowtie2.sam.bz2
+        
+Submitted job 157 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:21 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s22.Healthy.Feces.Visit1.bowtie2.sam.bz2
+    jobid: 139
+    wildcards: sample=s22.Healthy.Feces.Visit1
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s22.Healthy.Feces.Visit1.bowtie2.sam.bz2
+        
+Submitted job 139 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:21 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab1_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab1_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab1.bowtie2.sam.bz2
+    jobid: 173
+    wildcards: sample=Extractblankswab1
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab1_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractblankswab1_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab1.bowtie2.sam.bz2
+        
+Submitted job 173 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:22 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684291_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684291_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684291.bowtie2.sam.bz2
+    jobid: 103
+    wildcards: sample=s.684291
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684291_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.684291_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684291.bowtie2.sam.bz2
+        
+Submitted job 103 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:22 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.587618_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.587618_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.587618.bowtie2.sam.bz2
+    jobid: 170
+    wildcards: sample=s.587618
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.587618_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.587618_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.587618.bowtie2.sam.bz2
+        
+Submitted job 170 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:22 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.690073_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.690073_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.690073.bowtie2.sam.bz2
+    jobid: 183
+    wildcards: sample=s.690073
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.690073_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.690073_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.690073.bowtie2.sam.bz2
+        
+Submitted job 183 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:23 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710982_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710982_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.710982.bowtie2.sam.bz2
+    jobid: 141
+    wildcards: sample=s.710982
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710982_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710982_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.710982.bowtie2.sam.bz2
+        
+Submitted job 141 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:23 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688993_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688993_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.688993.bowtie2.sam.bz2
+    jobid: 117
+    wildcards: sample=s.688993
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688993_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.688993_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.688993.bowtie2.sam.bz2
+        
+Submitted job 117 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:24 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.603321_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.603321_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.603321.bowtie2.sam.bz2
+    jobid: 180
+    wildcards: sample=s.603321
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.603321_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.603321_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.603321.bowtie2.sam.bz2
+        
+Submitted job 180 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:24 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell2_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell2_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractemptywell2.bowtie2.sam.bz2
+    jobid: 177
+    wildcards: sample=Extractemptywell2
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell2_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Extractemptywell2_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractemptywell2.bowtie2.sam.bz2
+        
+Submitted job 177 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:24 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710979_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710979_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.710979.bowtie2.sam.bz2
+    jobid: 161
+    wildcards: sample=s.710979
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710979_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.710979_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.710979.bowtie2.sam.bz2
+        
+Submitted job 161 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:25 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725997_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725997_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725997.bowtie2.sam.bz2
+    jobid: 155
+    wildcards: sample=s.725997
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725997_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/s.725997_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725997.bowtie2.sam.bz2
+        
+Submitted job 155 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:37:25 2020]
+rule metaphlan_bowtie:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda2_1.fastq.gz, /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda2_2.fastq.gz
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda2.bowtie2.sam.bz2
+    jobid: 194
+    wildcards: sample=Vibriolambda2
+    threads: 4
+
+
+            bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive             -x metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901             -1 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda2_1.fastq.gz -2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/qc/decontam/Vibriolambda2_2.fastq.gz -p 4             | bzip2 > /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda2.bowtie2.sam.bz2
+        
+Submitted job 194 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:41:33 2020]
+Finished job 190.
+1 of 195 steps (0.51%) done
+
+[Wed Feb  5 14:41:33 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1_metagenome.txt
+    jobid: 93
+    wildcards: sample=EBneg1
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/EBneg1_metagenome.txt
+        
+Submitted job 93 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:41:51 2020]
+Finished job 162.
+2 of 195 steps (1%) done
+
+[Wed Feb  5 14:41:51 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline_metagenome.txt
+    jobid: 65
+    wildcards: sample=s059.Healthy_lessthan5.Feces.Baseline
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s059.Healthy_lessthan5.Feces.Baseline_metagenome.txt
+        
+Submitted job 65 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:42:10 2020]
+Finished job 102.
+3 of 195 steps (2%) done
+
+[Wed Feb  5 14:42:10 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277_metagenome.txt
+    jobid: 5
+    wildcards: sample=s.579277
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579277_metagenome.txt
+        
+Submitted job 5 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:42:11 2020]
+Finished job 122.
+4 of 195 steps (2%) done
+
+[Wed Feb  5 14:42:11 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540_metagenome.txt
+    jobid: 25
+    wildcards: sample=s.584540
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.584540_metagenome.txt
+        
+[Wed Feb  5 14:42:11 2020]
+Finished job 159.
+5 of 195 steps (3%) done
+Submitted job 25 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:42:11 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642_metagenome.txt
+    jobid: 62
+    wildcards: sample=s.735642
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.735642_metagenome.txt
+        
+Submitted job 62 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:43:08 2020]
+Finished job 152.
+6 of 195 steps (3%) done
+
+[Wed Feb  5 14:43:08 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300_metagenome.txt
+    jobid: 55
+    wildcards: sample=s.581300
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.581300_metagenome.txt
+        
+[Wed Feb  5 14:43:08 2020]
+Finished job 143.
+7 of 195 steps (4%) done
+[Wed Feb  5 14:43:08 2020]
+Finished job 134.
+8 of 195 steps (4%) done
+Submitted job 55 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:43:08 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994_metagenome.txt
+    jobid: 37
+    wildcards: sample=s.725994
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.725994_metagenome.txt
+        
+Submitted job 37 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:43:09 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444_metagenome.txt
+    jobid: 46
+    wildcards: sample=s.684444
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.684444_metagenome.txt
+        
+Submitted job 46 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:43:27 2020]
+Finished job 110.
+9 of 195 steps (5%) done
+
+[Wed Feb  5 14:43:27 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608_metagenome.txt
+    jobid: 13
+    wildcards: sample=s.659608
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659608_metagenome.txt
+        
+Submitted job 13 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:43:46 2020]
+Finished job 186.
+10 of 195 steps (5%) done
+
+[Wed Feb  5 14:43:46 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776_metagenome.txt
+    jobid: 89
+    wildcards: sample=s.601776
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.601776_metagenome.txt
+        
+Submitted job 89 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:44:05 2020]
+Finished job 167.
+11 of 195 steps (6%) done
+
+[Wed Feb  5 14:44:05 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922_metagenome.txt
+    jobid: 70
+    wildcards: sample=s.575922
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.575922_metagenome.txt
+        
+[Wed Feb  5 14:44:05 2020]
+Finished job 176.
+12 of 195 steps (6%) done
+Submitted job 70 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:44:06 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203_metagenome.txt
+    jobid: 79
+    wildcards: sample=s.676203
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676203_metagenome.txt
+        
+Submitted job 79 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:44:24 2020]
+Finished job 164.
+13 of 195 steps (7%) done
+
+[Wed Feb  5 14:44:24 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283_metagenome.txt
+    jobid: 67
+    wildcards: sample=s.579283
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.579283_metagenome.txt
+        
+Submitted job 67 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:44:25 2020]
+Finished job 150.
+14 of 195 steps (7%) done
+
+[Wed Feb  5 14:44:25 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869_metagenome.txt
+    jobid: 53
+    wildcards: sample=s.647869
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.647869_metagenome.txt
+        
+Submitted job 53 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:45:23 2020]
+Finished job 120.
+15 of 195 steps (8%) done
+
+[Wed Feb  5 14:45:23 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091_metagenome.txt
+    jobid: 23
+    wildcards: sample=s.743091
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743091_metagenome.txt
+        
+[Wed Feb  5 14:45:23 2020]
+Finished job 140.
+16 of 195 steps (8%) done
+Submitted job 23 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+[Wed Feb  5 14:45:23 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+    jobid: 43
+    wildcards: sample=s69.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s69.Healthy_greaterthan5.Feces.Baseline_metagenome.txt
+        
+Submitted job 43 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+[Wed Feb  5 14:46:59 2020]
+Finished job 172.
+17 of 195 steps (9%) done
+
+[Wed Feb  5 14:46:59 2020]
+rule metaphlan_classify:
+    input: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287.bowtie2.sam.bz2
+    output: /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287_metagenome.txt
+    jobid: 75
+    wildcards: sample=s.705287
+    threads: 4
+
+
+            metaphlan2.py              --nproc 4             --input_type sam             --nreads 100             --bowtie2db metaphlan_db_mpa_v295_CHOCOPhlAn_201901/mpa_v295_CHOCOPhlAn_201901 \ 
+            /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287.bowtie2.sam.bz2 /scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705287_metagenome.txt
+        
+Submitted job 75 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.72.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.606450.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.659202.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743095.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.676200.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.610337.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.682947.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.629793.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.568010.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657553.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.600982.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.657550.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s58.Healthy.greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.558016.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.658892.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.736172.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.712510.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.75.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Vibriolambda1.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705284.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.743693.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.705973.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.87.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s.677285.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/Extractblankswab2.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.
+Waiting at most 180 seconds for missing files.
+MissingOutputException in line 47 of /home/leej39/metaphlan_snakemake/Snakefile:
+Missing files after 180 seconds:
+/scr1/users/leej39/Greg_Tasian_New/sunbeam_output/classify/metaphlan/raw/s70.Healthy_greaterthan5.Feces.Baseline.bowtie2.sam.bz2
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Will exit after finishing currently running jobs.

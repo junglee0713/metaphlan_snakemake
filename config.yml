@@ -1,4 +1,8 @@
 ADMIN_EMAIL: "junglee0713@gmail.com"
-PROJECT_DIR: "/scr1/users/leej39/COMBO"
-METAPHLAN_DB: "/scr1/users/leej39/COMBO/sunbeam_output/classify/metaphlan/databases"
+PROJECT_DIR: "/scr1/users/leej39/Greg_Tasian_New"
+METAPHLAN_DB: "/mnt/isilon/microbiome/analysis/biodata/metaphlan_db_mpa_v295_CHOCOPhlAn_201901"
+# Pay attention to $BOWTIE2_INDEXES, an environment variable
+# In this pipeline, $BOWTIE2_INDEXES is NOT assumed to be set
+BOWTIE2_INDEX: "mpa_v295_CHOCOPhlAn_201901"
 THREADS: 4
+
